@@ -34,3 +34,11 @@ Sebelum membuat project, pastikan Composer sudah terinstal dengan perintah:
 
 ```bash
 composer --version
+```Jika sudah, buat project Laravel dengan perintah:
+composer create-project laravel/laravel:^11.0 nama-project
+Setelah selesai, jalankan server Laravel:
+php artisan serve
+Jika semua langkah berhasil, kamu bisa membuka project Laravel di browser melalui:
+http://localhost:8000
+
+
