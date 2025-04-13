@@ -12,7 +12,7 @@ Unduh Laragon dari situs resminya:
 
 Lalu lakukan instalasi seperti biasa hingga selesai.
 
-![Install Laragon](Install-laragon.png)
+![Install Laragon](Dokumentasi/Install-laragon.png)
 
 ---
 
@@ -20,7 +20,7 @@ Lalu lakukan instalasi seperti biasa hingga selesai.
 
 Setelah Laragon terinstal, buka aplikasinya dan klik tombol **Start All** untuk menyalakan semua service (Apache, MySQL, dsb).
 
-![Klik Start Laragon](Klik-Start-laragon.png)
+![Klik Start Laragon](Dokumentasi/Klik-Start-laragon.png)
 
 ---
 
@@ -28,7 +28,7 @@ Setelah Laragon terinstal, buka aplikasinya dan klik tombol **Start All** untuk 
 
 Klik menu **Terminal** di Laragon untuk membuka terminal bawaan. Ini akan membuka command prompt yang sudah diarahkan ke folder kerja Laragon (`C:\laragon\www`).
 
-![Klik Terminal Laragon](Klik-Terminal-Laragon.png)
+![Klik Terminal Laragon](Dokumentasi/Klik-Terminal-Laragon.png)
 
 ---
 
@@ -37,8 +37,10 @@ Klik menu **Terminal** di Laragon untuk membuka terminal bawaan. Ini akan membuk
 Pastikan Composer sudah terinstal di sistem kamu. Jalankan perintah berikut:
 
 🚀 5. Buat Project Laravel
-Masuk ke folder www Laragon (jika belum otomatis), lalu jalankan perintah:
 
+
+Masuk ke folder www Laragon (jika belum otomatis), lalu jalankan perintah:
+![Klik Terminal Laragon](Dokumentasi/Cek-Composer-Buat-project-Jalankan-pada-localhost.png)
 bash
 cd C:\laragon\www
 Kemudian buat project Laravel dengan perintah:
