@@ -1,44 +1,87 @@
-# Panduan Instalasi Laravel Menggunakan Laragon
+# 📘 Panduan Lengkap Instalasi Laravel 11 Menggunakan Laragon
 
-Panduan ini akan membantu kamu menginstall dan menjalankan Laravel menggunakan Laragon di Windows.
+Dokumen ini berisi langkah-langkah lengkap untuk menginstal Laravel 11 menggunakan Laragon, mulai dari setup awal hingga project berhasil dijalankan di browser.
 
 ---
 
-## 1. Install Laragon
+## 🛠 1. Install Laragon
 
-Langkah pertama adalah menginstall Laragon. Kamu bisa download installer dari [https://laragon.org](https://laragon.org).
+Unduh Laragon dari situs resminya:
+
+🔗 [https://laragon.org](https://laragon.org)
+
+Lalu lakukan instalasi seperti biasa hingga selesai.
 
 ![Install Laragon](Install-laragon.png)
 
 ---
 
-## 2. Jalankan Laragon
+## ⚙️ 2. Jalankan Laragon
 
-Setelah selesai menginstal, buka Laragon lalu klik tombol **Start All** untuk menyalakan semua service (Apache, MySQL, dll).
+Setelah Laragon terinstal, buka aplikasinya dan klik tombol **Start All** untuk menyalakan semua service (Apache, MySQL, dsb).
 
 ![Klik Start Laragon](Klik-Start-laragon.png)
 
 ---
 
-## 3. Buka Terminal Laragon
+## 💻 3. Buka Terminal Laragon
 
-Klik menu **Terminal** di Laragon untuk membuka terminal bawaan.
+Klik menu **Terminal** di Laragon untuk membuka terminal bawaan. Ini akan membuka command prompt yang sudah diarahkan ke folder kerja Laragon (`C:\laragon\www`).
 
 ![Klik Terminal Laragon](Klik-Terminal-Laragon.png)
 
 ---
 
-## 4. Cek Composer & Buat Project Laravel
+## 🧪 4. Cek Composer
 
-Sebelum membuat project, pastikan Composer sudah terinstal dengan perintah:
+Pastikan Composer sudah terinstal di sistem kamu. Jalankan perintah berikut:
 
-```bash
-composer --version
-```Jika sudah, buat project Laravel dengan perintah:
+🚀 5. Buat Project Laravel
+Masuk ke folder www Laragon (jika belum otomatis), lalu jalankan perintah:
+
+bash
+cd C:\laragon\www
+Kemudian buat project Laravel dengan perintah:
+
+bash
 composer create-project laravel/laravel:^11.0 nama-project
-Setelah selesai, jalankan server Laravel:
+Gantilah nama-project dengan nama yang kamu inginkan.
+
+📂 6. Masuk ke Folder Project dan Jalankan
+Setelah proses selesai, masuk ke folder project:
+
+bash
+cd nama-project
+Lalu jalankan Laravel menggunakan perintah artisan:
+
+``bash
 php artisan serve
-Jika semua langkah berhasil, kamu bisa membuka project Laravel di browser melalui:
+Laravel akan aktif di:
 http://localhost:8000
+Jika kamu menggunakan Laragon, domain otomatis juga bisa seperti:
+http://nama-project.test
+
+🌐 7. Buka di Browser
+Buka browser kamu, lalu akses salah satu URL berikut:
+
+http://localhost:8000
+
+http://nama-project.test (jika menggunakan fitur auto virtual host Laragon)
+
+
+✅ Selesai!
+Sekarang kamu sudah berhasil:
+
+✔️ Menginstal Laragon
+
+✔️ Mengecek Composer
+
+✔️ Membuat Project Laravel 11
+
+✔️ Menjalankan Laravel di browser
+
+Selamat ngoding Laravel 🎉
+
+
 
 
